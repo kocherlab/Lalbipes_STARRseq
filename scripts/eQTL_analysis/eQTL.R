@@ -122,6 +122,7 @@ lapply(rownames(expr),find_corr_snps)
 snps<-read.table("eQTL_output.txt",header=F,sep="\t")
 names(snps)<-c("snp","peak","statistic","pvalue","FDR","beta")
 snps$uni_fdr<-p.adjust(snps$pvalue,method="fdr")
+snps$FDR<-NULL
 
 write.table(snps,"eQTL_output_wFDR.txt",sep="\t",quote=F,row.names=F)
 
