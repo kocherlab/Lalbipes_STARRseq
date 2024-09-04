@@ -1,0 +1,104 @@
+2023-10-05 13:10:41 - INFO: Argument pipeline: annotate-braker3
+2023-10-05 13:10:41 - INFO: Argument rnaseq_table: LALB_Filtered_FASTQs.tsv
+2023-10-05 13:10:41 - INFO: Argument rnaseq_copy_method: symbolic_link
+2023-10-05 13:10:41 - INFO: Argument rnaseq_standardized_wildcard: {sample}_{read}.fq.gz
+2023-10-05 13:10:41 - INFO: Argument assembly_fasta: /Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1/LALB/LALB_genome_v3.fasta.gz
+2023-10-05 13:10:41 - INFO: Argument hints_fasta: /scratch/tmp/aewebb/Annotations/ProteinHints/ProteinHints_proteins.11.fasta
+2023-10-05 13:10:41 - INFO: Argument busco_database: hymenoptera_odb10
+2023-10-05 13:10:41 - INFO: Argument assembly_dir: Assembly
+2023-10-05 13:10:41 - INFO: Argument homology_dir: Homology
+2023-10-05 13:10:41 - INFO: Argument index_dir: Indices
+2023-10-05 13:10:41 - INFO: Argument downloads_dir: Downlaods
+2023-10-05 13:10:41 - INFO: Argument rnaseq_fastq_dir: RNAseq/FASTQs
+2023-10-05 13:10:41 - INFO: Argument rnaseq_bam_dir: RNAseq/BAMs
+2023-10-05 13:10:41 - INFO: Argument rnaseq_aligned_bam_dir: RNAseq/BAMs/Aligned
+2023-10-05 13:10:41 - INFO: Argument rnaseq_sorted_bam_dir: RNAseq/BAMs/Sorted
+2023-10-05 13:10:41 - INFO: Argument annotations_dir: Annotations
+2023-10-05 13:10:41 - INFO: Argument repeatmodeler_dir: Assembly/RepeatModeler
+2023-10-05 13:10:41 - INFO: Argument assembly_version: v3
+2023-10-05 13:10:41 - INFO: Argument annotation_version: 1
+2023-10-05 13:10:41 - INFO: Argument species: LALB
+2023-10-05 13:10:41 - INFO: Argument work_dir: LALB_v3.1
+2023-10-05 13:10:41 - INFO: Argument snakemake_job_prefix: LALB_v3.1
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/KMT5L_D05_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT5L_D05_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/KMT5L_D05_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT5L_D05_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/KMT6L_A04_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L_A04_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/KMT6L_A04_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L_A04_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/KMT6L_A12_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L_A12_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/KMT6L_A12_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L_A12_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/KMT6L_D04_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L_D04_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/KMT6L_D04_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L_D04_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_A08_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_A08_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_A08_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_A08_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_B05_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_B05_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_B05_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_B05_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_C01_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_C01_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_C01_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_C01_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_E09_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_E09_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_E09_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_E09_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_F02_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_F02_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_F02_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_F02_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_G09_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_G09_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_G09_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_G09_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_H07_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_H07_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM1_H07_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1_H07_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_B10_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_B10_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_B10_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_B10_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_D08_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_D08_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_D08_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_D08_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_E10_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_E10_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_E10_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_E10_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_H10_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_H10_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_H10_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_H10_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_H11_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_H11_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM3_H11_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3_H11_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM4_A02_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4_A02_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM4_A02_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4_A02_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM4_A05_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4_A05_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM4_A05_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4_A05_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM4_D01_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4_D01_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM4_D01_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4_D01_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM4_E04_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4_E04_Head_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Heads_RNA/FASTQ/Filtered/LIM4_E04_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4_E04_Head_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/KMT5L-D05_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT5L-D05_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/KMT5L-D05_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT5L-D05_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/KMT6L-A04_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L-A04_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/KMT6L-A04_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L-A04_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/KMT6L-A12_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L-A12_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/KMT6L-A12_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L-A12_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/KMT6L-D04_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L-D04_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/KMT6L-D04_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/KMT6L-D04_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-A08_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-A08_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-A08_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-A08_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-C01_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-C01_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-C01_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-C01_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-E09_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-E09_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-E09_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-E09_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-F02_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-F02_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-F02_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-F02_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-G09_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-G09_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-G09_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-G09_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-H07_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-H07_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM1-H07_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM1-H07_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-A05_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-A05_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-A05_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-A05_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-B10_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-B10_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-B10_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-B10_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-D08_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-D08_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-D08_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-D08_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-E10_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-E10_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-E10_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-E10_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-H10_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-H10_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-H10_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-H10_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-H11_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-H11_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM3-H11_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM3-H11_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM4-A02_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4-A02_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM4-A02_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4-A02_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM4-A05_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4-A05_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM4-A05_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4-A05_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM4-D01_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4-D01_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM4-D01_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4-D01_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM4-E04_R1.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4-E04_Antennae_R1.fq.gz. Method: symbolic_link
+2023-10-05 13:10:42 - INFO: Standardized: /Genomics/kocherlab/lab/data/RNAseq/LALB/Filtered/Filter_Antennae_RNA/FASTQ/Filtered/LIM4-E04_R2.fq.gz to LALB_v3.1/RNAseq/FASTQs/LIM4-E04_Antennae_R2.fq.gz. Method: symbolic_link
+2023-10-05 13:10:46 - INFO: Standardized: /Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1/LALB/LALB_genome_v3.fasta.gz to LALB_v3.1/Assembly/LALB_v3.fa. Method: symbolic_link
+2023-10-05 13:10:46 - INFO: Standardized: /scratch/tmp/aewebb/Annotations/ProteinHints/ProteinHints_proteins.11.fasta to LALB_v3.1/Homology/ProteinHints.fa. Method: symbolic_link

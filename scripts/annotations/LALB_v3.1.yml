@@ -1,0 +1,57 @@
+workdir: LALB_v3.1
+samples:
+  - KMT5L_D05_Head
+  - KMT6L_A04_Head
+  - KMT6L_A12_Head
+  - KMT6L_D04_Head
+  - LIM1_A08_Head
+  - LIM1_B05_Head
+  - LIM1_C01_Head
+  - LIM1_E09_Head
+  - LIM1_F02_Head
+  - LIM1_G09_Head
+  - LIM1_H07_Head
+  - LIM3_B10_Head
+  - LIM3_D08_Head
+  - LIM3_E10_Head
+  - LIM3_H10_Head
+  - LIM3_H11_Head
+  - LIM4_A02_Head
+  - LIM4_A05_Head
+  - LIM4_D01_Head
+  - LIM4_E04_Head
+  - KMT5L-D05_Antennae
+  - KMT6L-A04_Antennae
+  - KMT6L-A12_Antennae
+  - KMT6L-D04_Antennae
+  - LIM1-A08_Antennae
+  - LIM1-C01_Antennae
+  - LIM1-E09_Antennae
+  - LIM1-F02_Antennae
+  - LIM1-G09_Antennae
+  - LIM1-H07_Antennae
+  - LIM3-A05_Antennae
+  - LIM3-B10_Antennae
+  - LIM3-D08_Antennae
+  - LIM3-E10_Antennae
+  - LIM3-H10_Antennae
+  - LIM3-H11_Antennae
+  - LIM4-A02_Antennae
+  - LIM4-A05_Antennae
+  - LIM4-D01_Antennae
+  - LIM4-E04_Antennae
+species: LALB
+assembly_version: v3
+annotation_version: '1'
+busco_database: hymenoptera_odb10
+paths:
+  assembly_dir: Assembly
+  index_dir: Indices
+  rnaseq_fastq_dir: RNAseq/FASTQs
+  rnaseq_aligned_bam_dir: RNAseq/BAMs/Aligned
+  rnaseq_sorted_bam_dir: RNAseq/BAMs/Sorted
+  rnaseq_bam_dir: RNAseq/BAMs
+  repeatmodeler_dir: Assembly/RepeatModeler
+  homology_dir: Homology
+  annotations_dir: Annotations
+  downloads_dir: Downlaods
